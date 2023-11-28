@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script defer src="https://www.youtube.com/iframe_api"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="https://www.infowheels.eu/wp-content/uploads/2016/07/france-flag-round-large.png">
+    <title>Baguettify</title>
+</head>
+
+<body>
+    <h1>
+        <span class="blue">Baguette</span>
+        <span class="white">Language</span>
+        <span class="red">Generator</span>
+    </h1>
+
+    <h2>(Les résultats peuvent varier)</h2>
+
+    <div class="input-section">
+        <label for="input-field">What would you like to say in baguette language?</label>
+        <br>
+        <input id="input-field" type="text" placeholder="Write anything!">
+        <button id="translateButton">Baguettify!</button>
+    </div>
+
+    <div class="output-container">
+        <img class="flag" src="https://cdn.pixabay.com/animation/2022/08/14/03/56/03-56-00-644_512.gif">
+        <p class="suggestions"></p>
+        <img class="flag" src="https://cdn.pixabay.com/animation/2022/08/14/03/56/03-56-00-644_512.gif">
+    </div>
+
+    <iframe id="audio" width="110" height="200" src="https://www.myinstants.com/instant/happy-day-paris-29080/embed/" frameborder="0" scrolling="no"></iframe>
+
+    <script src="utils.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

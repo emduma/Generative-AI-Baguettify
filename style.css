@@ -1,0 +1,109 @@
+* {
+    font-family: Rockwell, serif;
+}
+
+html {
+    margin: 20px;
+}
+
+body {
+    background-color: rgba(30, 144, 255, 0.24);
+    height: 100%;
+    width: 100%
+}
+
+/* ======================= TITLE ============================== */
+
+h1 {
+    font-size: 60px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.blue {
+    color: blue;
+}
+
+.white {
+    color: white;
+}
+
+.red {
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    font-size: 10px;
+    opacity: 0.1;
+    margin-bottom: 50px;
+}
+
+/* ======================== INPUT SECTION ============================= */
+
+label {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 25px;
+    display: block;
+}
+
+.input-section {
+    text-align: center;
+}
+
+#input-field {
+    padding: 5px;
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+}
+
+button {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    box-shadow: 0 4px #999;
+    padding: 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: blue;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+button:active {
+    box-shadow: 0 1px #666;
+    transform: translateY(2px);
+}
+
+/* ========================= OUTPUT SECTION + FLAGS ============================ */
+
+.output-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+p {
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+    font-size: 25px;
+    padding-top: 25px;
+}
+
+/* ======================= FLAGS ============================== */
+
+.flag {
+    width: 20%;
+    height: 20%
+}
+
+/* ======================= AUDIO ============================== */
+
+#audio {
+    display: flex;
+    padding-top: 50px;
+    margin-left: 45%;
+}
+
